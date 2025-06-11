@@ -4,13 +4,37 @@
     {
       "id": "beyond-the-curse-main",
       "name": "Beyond the curse - Principal",
-      "description": "Serveur Minecraft 1.21.4",
+      "description": "Serveur avec Fabric 1.21.4",
       "version": "1.21.4",
-      "address": "localhost:25565", 
+      "address": "",
       "minecraftVersion": "1.21.4",
       "mainServer": true,
       "autoconnect": false,
-      "modules": []
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "required": {"value": true},
+          "artifact": {
+            "size": 1302456,
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar",
+            "path": "net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.15.11",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2891,
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.15.11/profile/json",
+                "path": "versions/1.21.4-fabric-0.15.11/1.21.4-fabric-0.15.11.json"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
