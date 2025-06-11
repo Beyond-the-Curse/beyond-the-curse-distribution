@@ -73,6 +73,16 @@
               }
             },
             {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "ASM Util",
+              "type": "Library",
+              "artifact": {
+                "size": 84854,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar",
+                "path": "libraries/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
               "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
               "name": "Mixin",
               "type": "Library",
