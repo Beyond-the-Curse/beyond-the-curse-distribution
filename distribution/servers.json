@@ -1,40 +1,40 @@
 {
   "version": "1.0.0",
-  "discord": {
-    "clientId": "",
-    "smallImageText": "Beyond the curse",
-    "smallImageKey": "btc-small"
-  },
-  "rss": "",
   "servers": [
     {
       "id": "beyond-the-curse-main",
       "name": "Beyond the curse - Principal",
       "description": "Serveur principal avec Fabric 1.21.4",
-      "icon": "https://VOTRE-USERNAME.github.io/beyond-the-curse-distribution/distribution/icon.png",
       "version": "1.21.4",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.4",
-      "discord": {
-        "shortId": "BTC",
-        "largeImageText": "Beyond the curse - Fabric 1.21.4",
-        "largeImageKey": "btc-large"
-      },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.16.9",
           "name": "Fabric Loader",
-          "type": "ForgeHosted",
+          "type": "Fabric",
           "required": {
             "value": true
           },
           "artifact": {
-            "size": 1234567,
+            "size": 1387357,
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
             "path": "net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
-          }
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.16.9",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.16.9/profile/json",
+                "path": "versions/1.21.4-fabric-0.16.9/1.21.4-fabric-0.16.9.json"
+              }
+            }
+          ]
         }
       ]
     }
