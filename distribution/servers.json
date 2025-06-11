@@ -4,7 +4,7 @@
     {
       "id": "beyond-the-curse-main",
       "name": "Beyond the curse - Principal",
-      "description": "Test Fabric 1.21.4",
+      "description": "Serveur avec Fabric 1.21.4",
       "version": "1.21.4",
       "address": "",
       "minecraftVersion": "1.21.4",
@@ -30,6 +30,36 @@
                 "size": 3021,
                 "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.16.9/profile/json",
                 "path": "versions/1.21.4-fabric-0.16.9/1.21.4-fabric-0.16.9.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "ASM Framework",
+              "type": "Library",
+              "artifact": {
+                "size": 125317,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar",
+                "path": "libraries/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "ASM Tree",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar",
+                "path": "libraries/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "ASM Commons",
+              "type": "Library",
+              "artifact": {
+                "size": 72642,
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar",
+                "path": "libraries/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             }
           ]
