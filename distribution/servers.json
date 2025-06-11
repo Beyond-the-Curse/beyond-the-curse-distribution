@@ -75,26 +75,6 @@
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar",
                 "path": "libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
               }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.3",
-              "name": "ASM Util",
-              "type": "Library",
-              "artifact": {
-                "size": 83600,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar",
-                "path": "libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.3",
-              "name": "ASM Analysis",
-              "type": "Library",
-              "artifact": {
-                "size": 33624,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar",
-                "path": "libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
-              }
             }
           ]
         },
@@ -103,11 +83,11 @@
           "name": "Fabric API",
           "type": "FabricMod",
           "required": {
-            "value": true
+            "value": false
           },
           "artifact": {
             "size": 2654321,
-            "url": "https://github.com/FabricMC/fabric/releases/download/0.115.3%2B1.21.4/fabric-api-0.115.3%2B1.21.4.jar",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/GvtGNvDs/fabric-api-0.115.3%2B1.21.4.jar",
             "path": "mods/fabric-api-0.115.3+1.21.4.jar"
           }
         }
