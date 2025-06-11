@@ -1,95 +1,38 @@
 {
   "version": "1.0.0",
-  "discord": {
-    "clientId": "",
-    "smallImageText": "Beyond the curse",
-    "smallImageKey": "btc-small"
-  },
-  "rss": "",
   "servers": [
     {
       "id": "beyond-the-curse-main",
       "name": "Beyond the curse - Principal",
-      "description": "Serveur principal avec Fabric 1.21.4 + API",
-      "icon": "",
+      "description": "Test Fabric 1.21.4",
       "version": "1.21.4",
       "address": "",
       "minecraftVersion": "1.21.4",
-      "discord": {
-        "shortId": "BTC",
-        "largeImageText": "Beyond the curse - Fabric 1.21.4",
-        "largeImageKey": "btc-large"
-      },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "id": "net.fabricmc:fabric-loader:0.16.9",
           "name": "Fabric Loader",
           "type": "Fabric",
-          "required": {
-            "value": true
-          },
+          "required": {"value": true},
           "artifact": {
-            "size": 1302456,
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar",
-            "path": "net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+            "size": 1387357,
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
+            "path": "net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
           },
           "subModules": [
             {
-              "id": "1.21.4-fabric-0.15.11",
+              "id": "1.21.4-fabric-0.16.9",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 2891,
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.15.11/profile/json",
-                "path": "versions/1.21.4-fabric-0.15.11/1.21.4-fabric-0.15.11.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.3",
-              "name": "ASM Framework",
-              "type": "Library",
-              "artifact": {
-                "size": 121856,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.3/asm-9.3.jar",
-                "path": "libraries/org/ow2/asm/asm/9.3/asm-9.3.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.3",
-              "name": "ASM Tree",
-              "type": "Library",
-              "artifact": {
-                "size": 51747,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar",
-                "path": "libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.3",
-              "name": "ASM Commons",
-              "type": "Library",
-              "artifact": {
-                "size": 70673,
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar",
-                "path": "libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+                "size": 3021,
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.16.9/profile/json",
+                "path": "versions/1.21.4-fabric-0.16.9/1.21.4-fabric-0.16.9.json"
               }
             }
           ]
-        },
-        {
-          "id": "net.fabricmc.fabric-api:fabric-api:0.115.3+1.21.4",
-          "name": "Fabric API",
-          "type": "FabricMod",
-          "required": {
-            "value": false
-          },
-          "artifact": {
-            "size": 2654321,
-            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/GvtGNvDs/fabric-api-0.115.3%2B1.21.4.jar",
-            "path": "mods/fabric-api-0.115.3+1.21.4.jar"
-          }
         }
       ]
     }
