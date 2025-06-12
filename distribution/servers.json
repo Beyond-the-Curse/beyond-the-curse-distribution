@@ -104,7 +104,7 @@
               "required": { "value": true },
               "artifact": {
                 "size": 1306799,
-                "url": "https://cdn.modrinth.com/data/AANobbMI/versions/c3YkZvne/sodium-fabric-0.6.13%2Bmc1.21.4.jar",
+                "url": "https://beyond-the-curse.github.io/beyond-the-curse-distribution/distribution/fabric/files/mods/sodium-fabric-0.6.13+mc1.21.4.jar",
                 "path": "mods/sodium-fabric-0.6.13+mc1.21.4.jar"
               }
             },
@@ -115,7 +115,7 @@
               "required": { "value": true },
               "artifact": {
                 "size": 797555,
-                "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/u8pHPXJl/lithium-fabric-0.15.3%2Bmc1.21.4.jar",
+                "url": "https://beyond-the-curse.github.io/beyond-the-curse-distribution/distribution/fabric/files/mods/lithium-fabric-0.15.3+mc1.21.4.jar",
                 "path": "mods/lithium-fabric-0.15.3+mc1.21.4.jar"
               }
             },
@@ -126,7 +126,7 @@
               "required": { "value": true },
               "artifact": {
                 "size": 12181332,
-                "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/Ju6WYjI8/plasmovoice-fabric-1.21.4-2.1.4.jar",
+                "url": "https://beyond-the-curse.github.io/beyond-the-curse-distribution/distribution/fabric/files/mods/plasmovoice-fabric-1.21.4-2.1.4.jar",
                 "path": "mods/plasmovoice-fabric-1.21.4-2.1.4.jar"
               }
             }
