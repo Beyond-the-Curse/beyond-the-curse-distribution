@@ -1,10 +1,15 @@
 {
   "version": "1.0.0",
+    "discord": {
+        "clientId": "1317783820438605865",
+        "smallImageText": "Beyond the curse",
+        "smallImageKey": "logo"
+    },
   "servers": [
     {
       "id": "beyond-the-curse-main",
       "name": "Beyond the curse - Principal",
-      "description": "Serveur avec Fabric 1.21.4",
+      "description": "Serveur avec Fabric 1.21.4 + Mods",
       "version": "1.21.4",
       "address": "",
       "minecraftVersion": "1.21.4",
@@ -93,6 +98,39 @@
               }
             }
           ]
+        },
+        {
+          "id": "fabric-api",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "required": {"value": true},
+          "artifact": {
+            "size": 2654321,
+            "url": "https://VOTRE-USERNAME.github.io/beyond-the-curse-distribution/distribution/fabric/files/mods/fabric-api-0.115.3+1.21.4.jar",
+            "path": "mods/fabric-api-0.115.3+1.21.4.jar"
+          }
+        },
+        {
+          "id": "lithium-fabric",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "required": {"value": false},
+          "artifact": {
+            "size": 1234567,
+            "url": "https://VOTRE-USERNAME.github.io/beyond-the-curse-distribution/distribution/fabric/files/mods/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "path": "mods/lithium-fabric-0.15.3+mc1.21.4.jar"
+          }
+        },
+        {
+          "id": "plasmovoice-fabric",
+          "name": "PlasmoVoice",
+          "type": "FabricMod",
+          "required": {"value": false},
+          "artifact": {
+            "size": 2345678,
+            "url": "https://VOTRE-USERNAME.github.io/beyond-the-curse-distribution/distribution/fabric/files/mods/plasmovoice-fabric-1.21.4-2.1.4.jar",
+            "path": "mods/plasmovoice-fabric-1.21.4-2.1.4.jar"
+          }
         }
       ]
     }
