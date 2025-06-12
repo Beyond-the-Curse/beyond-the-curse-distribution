@@ -4,7 +4,7 @@
     {
       "id": "beyond-the-curse-main",
       "name": "Beyond the curse - Principal",
-      "description": "Serveur avec Fabric 1.21.4 + Mods",
+      "description": "Test mods en racine",
       "version": "1.21.4",
       "address": "",
       "minecraftVersion": "1.21.4",
@@ -91,52 +91,52 @@
                 "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar",
                 "path": "libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
               }
-            },
-            {
-              "id": "net.fabricmc.fabric-api:fabric-api:0.115.3+1.21.4",
-              "name": "Fabric API",
-              "type": "FabricMod",
-              "required": {"value": true},
-              "artifact": {
-                "size": 2147553,
-                "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/bQZpGIz0/fabric-api-0.119.2%2B1.21.4.jar",
-                "path": "mods/fabric-api-0.115.3+1.21.4.jar"
-              }
-            },
-            {
-              "id": "me.jellysquid3.mods:lithium:0.15.3+mc1.21.4",
-              "name": "Lithium (Performance)",
-              "type": "FabricMod",
-              "required": {"value": false},
-              "artifact": {
-                "size": 797555,
-                "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/u8pHPXJl/lithium-fabric-0.15.3%2Bmc1.21.4.jar",
-                "path": "mods/lithium-fabric-0.15.3+mc1.21.4.jar"
-              }
-            },
-            {
-              "id": "net.caffeinemc:sodium:0.6.13+mc1.21.4",
-              "name": "Sodium (Performance)",
-              "type": "FabricMod",
-              "required": {"value": false},
-              "artifact": {
-                "size": 1306799,
-                "url": "https://cdn.modrinth.com/data/AANobbMI/versions/c3YkZvne/sodium-fabric-0.6.13%2Bmc1.21.4.jar",
-                "path": "mods/sodium-fabric-0.6.13+mc1.21.4.jar"
-              }
-            },
-            {
-              "id": "su.plo.voice:plasmovoice:2.1.4+1.21.4",
-              "name": "PlasmoVoice (Chat Vocal)",
-              "type": "FabricMod",
-              "required": {"value": false},
-              "artifact": {
-                "size": 12181332,
-                "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/Ju6WYjI8/plasmovoice-fabric-1.21.4-2.1.4.jar",
-                "path": "mods/plasmovoice-fabric-1.21.4-2.1.4.jar"
-              }
             }
           ]
+        },
+        {
+          "id": "net.fabricmc.fabric-api:fabric-api:0.115.3+1.21.4",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "required": {"value": true},
+          "artifact": {
+            "size": 2147553,
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/bQZpGIz0/fabric-api-0.119.2%2B1.21.4.jar",
+            "path": "mods/fabric-api-0.115.3+1.21.4.jar"
+          }
+        },
+        {
+          "id": "me.jellysquid3.mods:lithium:0.15.3+mc1.21.4",
+          "name": "Lithium (Performance)",
+          "type": "FabricMod",
+          "required": {"value": false},
+          "artifact": {
+            "size": 797555,
+            "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/u8pHPXJl/lithium-fabric-0.15.3%2Bmc1.21.4.jar",
+            "path": "mods/lithium-fabric-0.15.3+mc1.21.4.jar"
+          }
+        },
+        {
+          "id": "net.caffeinemc:sodium:0.6.13+mc1.21.4",
+          "name": "Sodium (Performance)",
+          "type": "FabricMod",
+          "required": {"value": false},
+          "artifact": {
+            "size": 1306799,
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/c3YkZvne/sodium-fabric-0.6.13%2Bmc1.21.4.jar",
+            "path": "mods/sodium-fabric-0.6.13+mc1.21.4.jar"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.4+1.21.4",
+          "name": "PlasmoVoice (Chat Vocal)",
+          "type": "FabricMod",
+          "required": {"value": false},
+          "artifact": {
+            "size": 12181332,
+            "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/Ju6WYjI8/plasmovoice-fabric-1.21.4-2.1.4.jar",
+            "path": "mods/plasmovoice-fabric-1.21.4-2.1.4.jar"
+          }
         }
       ]
     }
