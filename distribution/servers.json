@@ -101,7 +101,7 @@
               "id": "net.caffeinemc:sodium:0.6.0+mc1.21.4",
               "name": "sodium",
               "type": "FabricMod",
-              "required": { "value": false },
+              "required": { "value": true },
               "artifact": {
                 "size": 2654321,
                 "url": "https://cdn.modrinth.com/data/AANobbMI/versions/c3YkZvne/sodium-fabric-0.6.13%2Bmc1.21.4.jar",
@@ -112,7 +112,7 @@
               "id": "me.jellysquid3.mods:lithium:0.15.3+mc1.21.4",
               "name": "Lithium",
               "type": "FabricMod",
-              "required": { "value": false },
+              "required": { "value": true },
               "artifact": {
                 "size": 1234567,
                 "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/u8pHPXJl/lithium-fabric-0.15.3%2Bmc1.21.4.jar",
@@ -123,7 +123,7 @@
               "id": "su.plo.voice:plasmovoice:2.1.4+1.21.4",
               "name": "PlasmoVoice",
               "type": "FabricMod",
-              "required": { "value": false },
+              "required": { "value": true },
               "artifact": {
                 "size": 2345678,
                 "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/Ju6WYjI8/plasmovoice-fabric-1.21.4-2.1.4.jar",
