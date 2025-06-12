@@ -98,8 +98,8 @@
               "type": "FabricMod",
               "required": {"value": true},
               "artifact": {
-                "size": 3064832,
-                "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/GvtGNvDs/fabric-api-0.115.3%2B1.21.4.jar",
+                "size": 2147553,
+                "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/bQZpGIz0/fabric-api-0.119.2%2B1.21.4.jar",
                 "path": "mods/fabric-api-0.115.3+1.21.4.jar"
               }
             },
@@ -109,7 +109,7 @@
               "type": "FabricMod",
               "required": {"value": false},
               "artifact": {
-                "size": 721543,
+                "size": 797555,
                 "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/u8pHPXJl/lithium-fabric-0.15.3%2Bmc1.21.4.jar",
                 "path": "mods/lithium-fabric-0.15.3+mc1.21.4.jar"
               }
@@ -120,7 +120,7 @@
               "type": "FabricMod",
               "required": {"value": false},
               "artifact": {
-                "size": 1203456,
+                "size": 1306799,
                 "url": "https://cdn.modrinth.com/data/AANobbMI/versions/c3YkZvne/sodium-fabric-0.6.13%2Bmc1.21.4.jar",
                 "path": "mods/sodium-fabric-0.6.13+mc1.21.4.jar"
               }
@@ -131,7 +131,7 @@
               "type": "FabricMod",
               "required": {"value": false},
               "artifact": {
-                "size": 987654,
+                "size": 12181332,
                 "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/Ju6WYjI8/plasmovoice-fabric-1.21.4-2.1.4.jar",
                 "path": "mods/plasmovoice-fabric-1.21.4-2.1.4.jar"
               }
