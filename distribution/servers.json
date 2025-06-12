@@ -98,7 +98,7 @@
               }
             },
             {
-              "id": "sodium-api",
+              "id": "net.caffeinemc:sodium:0.6.0+mc1.21.4",
               "name": "sodium",
               "type": "FabricMod",
               "required": { "value": false },
@@ -109,7 +109,7 @@
               }
             },
             {
-              "id": "lithium-fabric",
+              "id": "me.jellysquid3.mods:lithium:0.15.3+mc1.21.4",
               "name": "Lithium",
               "type": "FabricMod",
               "required": { "value": false },
@@ -120,7 +120,7 @@
               }
             },
             {
-              "id": "plasmovoice-fabric",
+              "id": "su.plo.voice:plasmovoice:2.1.4+1.21.4",
               "name": "PlasmoVoice",
               "type": "FabricMod",
               "required": { "value": false },
