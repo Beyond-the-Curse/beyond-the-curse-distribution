@@ -100,7 +100,7 @@
           "type": "FabricMod",
           "required": { "value": true },
           "artifact": {
-            "size": 3064832,
+            "size": 2107951,
             "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/UnrycCWP/fabric-api-0.115.1%2B1.21.4.jar",
             "path": "mods/fabric-api-0.115.1+1.21.4.jar"
           }
